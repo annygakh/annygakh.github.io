@@ -19,6 +19,51 @@ MIT (c) Sindre Sorhus
   word-wrap: break-word;
 }
 
+/* Website specific modifications for mobile */
+@media only screen and (max-width: 767px),
+ only screen  and (max-device-width : 767px) {
+  .markdown-body {
+    font-size: 40px;
+  }
+  body {
+    padding: 2rem;
+    border: 2px solid black;
+  }
+  nav a {
+    font-size: 50px;
+    border: 4px solid var(--sbordercolor);
+  }
+  
+  .markdown-body table.posts-table {
+    table-layout: fixed; 
+  }
+
+  .markdown-body table.posts-table,
+  .markdown-body table.posts-table tbody,
+  .markdown-body table.posts-table tr,
+  .markdown-body table.posts-table td {
+    display: block;
+  }
+
+  .markdown-body table.posts-table tr:not(:first-child) td:nth-child(odd) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .markdown-body table.posts-table tr:not(:first-child) td:nth-child(even) {
+    white-space: normal;
+    padding-bottom: 0.5em;
+  }
+  .markdown-body table.posts-table tr:not(:first-child) td:nth-child(odd){
+    width: 100%;
+    padding-top: 0.5em;
+    border-top: 6px solid rgba(0, 0, 0, 0.05);
+  }
+  .postDate {
+    font-size: 1em;
+  } 
+}
+
+
 .markdown-body .pl-c {
   color: #6a737d;
 }

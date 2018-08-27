@@ -11,13 +11,11 @@ body {
   margin: 1.5rem auto auto auto;
   max-width:800px;
   line-height:1.6;
-  font-size:18px;
   color:#444;
   padding: 1rem 1rem;
   border: 1px solid black;
   box-sizing: border-box;
   font-family: "Times New Roman";
-  font-size: 0.4rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -30,8 +28,8 @@ h1,h2,h3{
   line-height:1.2
 }
 nav a {
-  box-shadow: .3rem .3rem var(--sbordercolor);
-  font-size: 1rem;
+  box-shadow: .2em .2em var(--sbordercolor);
+  font-size: 1.2em;
   padding: 0.2rem 0.7rem;
   font-family: "IBM Plex Mono";
   color: var(--sfontcolor);
@@ -119,5 +117,5 @@ nav {
 }
 
 .postDate {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
