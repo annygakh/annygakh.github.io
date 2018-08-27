@@ -97,7 +97,7 @@ nav {
 }
  
 /* Post title and date */
-.markdown-body table.posts-table tr td {
+.markdown-body table.posts-table tr:not(:first-child) td {
   white-space: nowrap;
 } 
 /* Post titles */
@@ -105,13 +105,6 @@ nav {
   padding-bottom: 0;
   margin-bottom: 0;
 } 
-
-/* Post excerpts f */
-/* .markdown-body table.posts-table tr:nth-child(odd) td:nth-child(even) {
-  padding-top:0;
-  font-size: 0.8rem;
-  color: grey;
-}  */
 
 /* The dates */
 .markdown-body table.posts-table tr:not(:first-child) td:nth-child(odd) {
