@@ -23,6 +23,7 @@ url: "https://annygakh.github.io" # the base hostname & protocol for your site, 
 twitter_username: annygakh
 github_username:  annygakh
 excerpt_separator: <!--more-->
+disqus: annygakh-github-io
 # Build settings
 plugins:
   - jekyll-feed
