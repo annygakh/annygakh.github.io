@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body class="markdown-body">
+    <head>
+        <!-- For future, this is also useful 
+        http://www.boris-belousov.net/2016/05/16/jekyll-syntax-highlight/
+        -->
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet"> 
+        <link href="{{ site.baseurl}}/assets/style.css" rel="stylesheet">
+        <link href="{{ site.baseurl}}/assets/base16-railscasts.light.css" rel="stylesheet">
+        <link href="{{ site.baseurl}}/assets/github-markdown.css" rel="stylesheet">
+    </head>
+      <title>{{ page.title }} | {{ site.title }}</title>
+      <nav>
+          <a href="/">home</a>
+          <a href="/about">about</a>
+          <a href="/longposts">long posts</a>
+          <a href="/dailyposts">daily posts</a>
+          <a href="https://github.com/annygakh">github</a>
+          <a href="https://twitter.com/annygakh">twitter</a>
+        </nav>
+        {{content}}
+  </body>
+</html>

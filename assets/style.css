@@ -1,0 +1,130 @@
+:root {
+  /* nav colors */
+  --sbordercolor: #0051CA;
+  --sbgcolor: white;
+  --sfontcolor: black;
+
+  /* for nav and myposts */
+  --leftmargin: 0.6rem;
+}
+body {
+  margin: 1.5rem auto auto auto;
+  max-width:800px;
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+  font-size: 0.4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    margin: 2rem 2rem;
+  }
+}
+
+h1,h2,h3{
+  line-height:1.2
+}
+nav a {
+  box-shadow: .3rem .3rem var(--sbordercolor);
+  font-size: 1rem;
+  padding: 0.2rem 0.7rem;
+  font-family: "IBM Plex Mono";
+  color: var(--sfontcolor);
+  border: 1px solid var(--sbordercolor);
+  background-color: var(--sbgcolor);
+  margin: var(--leftmargin) var(--leftmargin)
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
+.markdown-body h1,
+.posttitle {
+  font-size: 1.5em;
+}
+
+.post-header {
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body .post-header p {
+  margin-bottom: 0;
+}
+.markdown-body .post-header h1 {
+  border-bottom: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.myposts {
+  margin: var(--leftmargin);
+  margin-top: 2rem;
+}
+.posts-table th {
+  white-space: nowrap;
+}
+
+/* Remove color settings from the table on homepage */
+.markdown-body .posts-table * {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+/* Remove color settings from the table on homepage */
+.markdown-body table.posts-table tr:nth-child(2n) {
+    background-color: transparent; 
+}
+
+/* Table columns*/
+.markdown-body table.posts-table td  {
+  padding-left: 0;
+}
+ 
+/* Post title and date */
+.markdown-body table.posts-table tr td {
+  white-space: nowrap;
+} 
+/* Post titles */
+.markdown-body table.posts-table tr:nth-child(even) td:nth-child(even) {
+  padding-bottom: 0;
+  margin-bottom: 0;
+} 
+
+/* Post excerpts f */
+/* .markdown-body table.posts-table tr:nth-child(odd) td:nth-child(even) {
+  padding-top:0;
+  font-size: 0.8rem;
+  color: grey;
+}  */
+
+/* The dates */
+.markdown-body table.posts-table tr:not(:first-child) td:nth-child(odd) {
+  color: grey;
+  width: 8rem;
+}
+
+.markdown-body .posttitle {
+  color: var(--sbordercolor);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.postDate {
+  font-size: 0.8rem;
+}
