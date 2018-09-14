@@ -6,7 +6,7 @@ permalink: /about/
 
 About me
 ------
-I'm a software developer who is currently completing her undegrad at UBC, Vancouver. I have previously interned at Monexa, Nvidia and Mozilla. This blog is me rambling about what I work on. There are hacks, code tidbits, explanations and my thoughts in progress.
+I'm a software developer who is currently completing her undergrad at UBC, Vancouver. I have previously interned at Monexa, Nvidia and Mozilla. This blog is me rambling about what I work on. There are hacks, code tidbits, explanations and my thoughts in progress.
 
 *All opinions are my own and my own only.*
 
