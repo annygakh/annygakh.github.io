@@ -1,7 +1,7 @@
 ---
 layout: post
 category: longblog
-title: Preparing for Cppcon2018
+title: Pre-reading about and preparing for attending Cppcon2018 talks.
 published: true
 ---
 I needed to prepare for Cppcon and I decided to look at each talk and write down any thoughts I have for the ones I want to attend.
