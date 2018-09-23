@@ -5,23 +5,10 @@ layout: default
   {{content}}
   <table class="posts-table">
     <tbody>
-      <tr>
-        <td colspan="2">Here are a few of my daily posts.</td> 
-      </tr>
-      {% for post in site.categories.dailyblog limit:5 %}
-      <tr>
-        <td><span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span></td>
-        <td><a href="{{ post.url }}">{{ post.title}}</a></td>
-      </tr>
-      {% endfor %} 
-    </tbody>
-  </table>
-  <table class="posts-table">
-    <tbody>
         <tr>
             <td colspan="2">And here are a few of my longer posts. </td>
           </tr>
-    
+
           {% for post in site.categories.longblog limit:5 %}
             <tr>
               <td><span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span></td>
@@ -30,4 +17,18 @@ layout: default
             {% endfor %}
     </tbody>
   </table>
+  <table class="posts-table">
+    <tbody>
+      <tr>
+        <td colspan="2">Here are a few of my daily posts.</td>
+      </tr>
+      {% for post in site.categories.dailyblog limit:5 %}
+      <tr>
+        <td><span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span></td>
+        <td><a href="{{ post.url }}">{{ post.title}}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
 </div>
