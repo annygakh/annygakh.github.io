@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CPSC 448 - Understanding TensorFlow
-category: dailyblog
+category: longblog
 published: true
 ---
 
