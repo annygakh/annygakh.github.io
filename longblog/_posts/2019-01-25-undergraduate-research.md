@@ -5,6 +5,9 @@ title: My experience with undergraduate research
 published: true
 ---
 
+## Introduction
+In this blog post I will be talking about my experience doing undergraduate research in computer science at UBC, how I got involved with it, what I learned from it, how I approached my work, some challenges I had, and advice for students who would like to do the same. In the end I will summarize some lessons I have learned from my experiences.
+
 - [My experience](#my-experience)
   * [Approaching a professor](#approaching-a-professor)
   * [Choosing a project](#choosing-a-project)
