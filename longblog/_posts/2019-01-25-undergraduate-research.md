@@ -1,7 +1,7 @@
 ---
 layout: post
 category: longblog
-title: My experience with undergraduate research
+title: My Experience With Undergraduate Research
 published: true
 ---
 
