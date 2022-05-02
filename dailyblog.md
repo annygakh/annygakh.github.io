@@ -4,6 +4,9 @@ layout: dailyblog
 permalink: /dailyposts/
 order: 4
 ---
+
+I JUST ADDED THIS!!!!!!!!!
+
 This page contains my draft posts. They are pretty informal, sometimes incohesive and might contain typos.
 They usually act as my thought dump, sometimes containing my hour-by-hour thoughts as
 I am struggling through a technical problem.
@@ -13,3 +16,5 @@ or small guides for doing things, e.g. 'How to setup the rr debugger' or 'How to
 
 From time to time I will extract bits and pieces from these posts to make one long and cohesive long post,
 which you will see in the 'long posts' section.
+
+
