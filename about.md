@@ -6,7 +6,9 @@ permalink: /about/
 
 About me
 ------
-I used to work on the Firefox browser engine at Mozilla from 2019 - 2022. I have completed my Computer Science Bachelor of Science program at UBC in May 2019. I have previously interned at Monexa, Nvidia and Mozilla. This blog is me rambling about what I work on. There are hacks, code tidbits, explanations and my thoughts in progress.
+I used to work on the Firefox browser engine at Mozilla from 2019 - 2022. Nowadays, I am interested in scholarly topics of technology, labor, infrastructures and precarious work.
+
+I have completed my Computer Science Bachelor of Science program at UBC in May 2019. I have previously interned at Monexa, Nvidia and Mozilla. This blog is me rambling about what I work on. There are hacks, code tidbits, explanations and my thoughts in progress.
 
 
 *All opinions are my own and my own only.*
