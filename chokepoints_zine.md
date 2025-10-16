@@ -11,7 +11,14 @@ Citations
 
 Images used:
 - (last page) https://www.artic.edu/artworks/45231/palmer-s-dock-cos-cob 
-- (2nd and 3rd) https://www.artic.edu/artworks/125531/fulton-street-dock-looking-west-manhattan
+- (2nd and 3rd) [https://www.artic.edu/artworks/125531/fulton-street-dock-looking-west-manhattan]()
 - https://www.artic.edu/artworks/212128/high-on-the-empire-state-building-n-y
 - https://www.artic.edu/artworks/124621/furze-cutting-on-a-suffolk-common
 - https://www.artic.edu/artworks/212129/hosiery-worker
+
+
+Circuit generated with:
+https://www.circuit-diagram.org/editor/
+
+Qr code generated with:
+https://www.qr-code-generator.com/
