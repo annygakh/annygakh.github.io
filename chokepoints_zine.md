@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /chokepoints-zine/
+title: Chokepoints Zine
+permalink: /chokepoints/
 ---
 
 Test for QR code for the zine!
