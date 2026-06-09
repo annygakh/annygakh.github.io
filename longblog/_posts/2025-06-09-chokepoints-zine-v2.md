@@ -5,4 +5,4 @@ category: longblog
 published: true
 ---
 
-[Chokepoints zine - V2](assets/pdfs/chokepoints-zine-v2.pdf). 
+[Chokepoints zine - V2](/assets/pdfs/chokepoints-zine-v2.pdf). 
